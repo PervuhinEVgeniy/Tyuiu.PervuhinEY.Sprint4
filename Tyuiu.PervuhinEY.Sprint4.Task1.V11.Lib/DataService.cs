@@ -6,7 +6,7 @@ namespace Tyuiu.PervuhinEY.Sprint4.Task1.V11.Lib
         public int Calculate(int[] array)
         {
             int sum = 0;
-            for (int i = 1; i <= array.Length - 1; i++)
+            for (int i = 0; i <= array.Length - 1; i++)
             {
                 if (array[i] % 2 == 0)
                 {
